@@ -104,7 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       activeColor: Colors.red,
                       value: red,
                       min: 0,
-                      max: 500,
+                      max: 255,
                       onChanged: (value) {
                         setState(() {
                           red = value;
